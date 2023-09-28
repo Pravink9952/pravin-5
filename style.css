@@ -50,6 +50,7 @@ body
 }
 
 .content{
+    align:center;
     margin-top: 20%;
     color: #f5efef;
     max-width: 500px;
@@ -78,8 +79,10 @@ body
 }
 
 .content form .btn:hover{
-    color: chocolate;
-    transition: all 0.5s ease 0s ;
+       color: rgb(238, 235, 233);
+       transition: all 0.5s ease 0s;
+       padding: 10px ;
+       background-color: chocolate;
 
 }
     
