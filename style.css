@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    background:linear-gradient(rgba(163, 156, 220, 0.404),rgba(9,0,77,0.6)), url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 5%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Navbar a {
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 2.5rem;
+}
+
+.Navbar a:hover{
+    color: chocolate;
+    transition: all 0.5s ease 0s;
+}
+
+.content{
+    margin-top: 10%;
+    color: #f5efef;
+    max-width: 500px;
+    position: absolute;
+}
+
+.content h1{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 80px;
+    margin-bottom: 60px;
+}
+
+.content form{
+    align-items: center;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.content form .btn:hover{
+    color: chocolate;
+    transition: all 0.5s ease 0s ;
+
+}
+    
